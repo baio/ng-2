@@ -1,0 +1,16 @@
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.map
+
+!/.gitignore
+
+.DS_Store
+node_modules
+pids
+logs
+dist

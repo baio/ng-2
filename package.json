@@ -1,0 +1,19 @@
+{
+  "name": "ng-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p app -w",
+    "start": "live-server --open=app --port=8072"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reactivex/rxjs": "5.0.0-alpha.4",
+    "angular2": "2.0.0-alpha.44",
+    "systemjs": "0.19.2",
+    "url": "git+https://github.com/defunctzombie/node-url.git"
+  }
+}

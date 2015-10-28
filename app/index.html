@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>VVV NG 2 Proof Concept</title>
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/http.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/router.dev.js"></script>
+    <!--<script src="../node_modules/@reactivex/rxjs/dist/global/Rx.js"></script>-->
+
+    <script>
+      /*
+      System.config({        
+         packages: {
+           'dist': {
+             defaultExtension: 'js',             
+            },
+            '@reactivex': {
+              defaultExtension: 'js'
+            }            
+         },
+         paths : {
+           "@reactivex/*" : "../node_modules/@reactivex/*"
+         },
+      });
+      */
+      System.config({        
+         packages: {
+           'dist': {
+             defaultExtension: 'js',             
+            }            
+         }
+      });
+      
+      System.import('dist/app');
+      
+    </script>
+  </head>
+  <body>
+    <my-app>loading...</my-app>
+  </body>
+</html>
